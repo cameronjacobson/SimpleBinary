@@ -1,0 +1,9 @@
+{
+    "name": "simplebinary/simplebinary",
+    "autoload":{
+        "psr-0": {
+            "SimpleBinary":"src/"
+        }
+    }
+}
+
