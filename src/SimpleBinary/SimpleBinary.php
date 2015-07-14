@@ -28,6 +28,14 @@ class SimpleBinary
 		$this->offset = $offset;
 	}
 
+	public function incOffset($amt){
+		$this->offset += $amt;
+	}
+
+	public function decOffset($amt){
+		$this->offset -= $amt;
+	}
+
 	public function getInt8(){
 		return $this->unpack('C');
 	}
